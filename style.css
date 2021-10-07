@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+#about {
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    padding: 10% 4%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.tag {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+.heading {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.intro-p,
+.flow-text {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 55%;
+    display: inline-block;
+}
+
+.text-row {
+    padding-top: 50px;
+}
+
+.flow-text {
+    width: 100%;
+}
+
+.download-iOS,
+.download-Android {
+    padding: 12px 30px;
+    margin: 20px 10px;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 10px;
+}
+
+.download-iOS {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.download-iOS:hover {
+    box-shadow: 3px 3px 3px 0px hsl(171, 66%, 44%);
+}
+
+.download-Android {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.download-Android:hover {
+    box-shadow: 3px 3px 3px 0px hsl(233, 100%, 69%);
+}
+
+.computer {
+    margin: 5% 4% 7%;
+}
+
+.container {
+    text-align: start;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.workflow,
+.logo,
+.content {
+    margin: 7% 4% 4%;
+}
+
+.track {
+    margin: 8% 4% 7%;
+}
+
+#foot {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content {
+    margin: 2% 8%;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 80px;
+}
+
+@media (max-width:570px) {
+    #about {
+        background-image: url(images/bg-header-mobile.png);
+    }
+    .intro {
+        padding-top: 90px;
+    }
+    .main-logo {
+        width: 90px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .intro-p {
+        font-size: 1rem;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .download-iOS,
+    .download-Android {
+        margin: 10px 0;
+    }
+    .track,
+    .computer,
+    .workflow,
+    .logo,
+    .content {
+        margin: 50px 20px;
+    }
+    .content {
+        text-align: center;
+    }
+    .footer-logo {
+        width: 60px;
+        padding-bottom: 20px;
+    }
+    a {
+        line-height: 2;
+    }
+}
